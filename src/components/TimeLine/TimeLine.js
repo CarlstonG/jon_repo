@@ -46,8 +46,7 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      The purpose of JavaScript Mastery is to help aspiring and established developers to take their development skills to the next level and build awesome apps.
-      </SectionText>
+      A passionate Web designer and VA with 2 years of overall experience using Figma, Hub CRM, Adobe tools and CRM management tools. Implement all user experience and well-rounded UX/UI design features for client-facing web app and pages. </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (
